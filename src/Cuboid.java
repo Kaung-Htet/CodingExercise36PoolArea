@@ -3,10 +3,6 @@ public class Cuboid extends Rectangle{
 
     public Cuboid(double width, double length, double height) {
         super(width, length);
-        this.height = height;
-    }
-
-    public void setHeight(double height) {
         if (height < 0){
             this.height = 0;
         } else {
